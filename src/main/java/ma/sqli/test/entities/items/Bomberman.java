@@ -1,5 +1,6 @@
 package ma.sqli.test.entities.items;
 
+import ma.sqli.test.configuration.Configuration;
 import ma.sqli.test.entities.Map.Map;
 import ma.sqli.test.entities.items.rock.EnhancerRock;
 import ma.sqli.test.entities.items.rock.StarRock;
@@ -105,7 +106,7 @@ public class Bomberman extends Item {
     }
 
     public void killBomberMan() {
-        content = "D";
+        content = Configuration.DEAD_BOMBER_MAN;
     }
 
 }

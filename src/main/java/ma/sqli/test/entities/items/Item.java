@@ -1,6 +1,6 @@
 package ma.sqli.test.entities.items;
 
-import static ma.sqli.test.configuration.Configuration.EMPTY;
+        import static ma.sqli.test.configuration.Configuration.EMPTY;
 
 public class Item {
     protected String content;

@@ -5,11 +5,13 @@ import ma.sqli.test.entities.items.rock.EnhancerRock;
 import ma.sqli.test.entities.items.rock.SimpleRock;
 import ma.sqli.test.entities.items.rock.StarRock;
 
+import static ma.sqli.test.configuration.Configuration.BOMB;
+
 public class Bomb extends Item {
     int power;
 
     public Bomb(int power) {
-        content = "o";
+        content = BOMB;
         this.power = power;
     }
 
