@@ -11,16 +11,16 @@ public class Map {
     }
 
     public String draw() {
-        StringBuilder builder = new StringBuilder();
+        StringBuilder drawBuilder = new StringBuilder();
         for (int i = 0; i < positions.length; i++) {
             for (int j = 0; j < positions.length; j++) {
-                builder.append(positions[i][j].getcontent());
+                drawBuilder.append(positions[i][j].getcontent());
             }
             if (i != positions.length - 1)
-                builder.append("\n");
+                drawBuilder.append("\n");
         }
 
-        return builder.toString();
+        return drawBuilder.toString();
     }
 
     public void trigger() {
