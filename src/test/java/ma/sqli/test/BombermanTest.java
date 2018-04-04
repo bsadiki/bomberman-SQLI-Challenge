@@ -2,9 +2,9 @@ package ma.sqli.test;
 
 import static org.junit.Assert.*;
 
-import ma.sqli.test.builder.MapBuilder;
-import ma.sqli.test.entities.items.Bomberman;
-import ma.sqli.test.entities.Map.Map;
+import ma.sqli.test.map.MapBuilder;
+import ma.sqli.test.map.items.Bomberman;
+import ma.sqli.test.map.Map;
 import org.junit.Test;
 
 
